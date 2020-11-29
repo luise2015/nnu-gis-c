@@ -26,7 +26,7 @@ double calPolygonArea(Point points[], int size)
     double sum = 0;
     for (int i = 0; i < size - 1; i++)
     {
-        double height = points[i].y - points[i + 1].y;
+        double height = points[i].y - points[i + ,.1].y;
         double x1 = points[i].x;
         double x2 = points[i + 1].x;
         sum += (x1 + x2) * height / 2;
